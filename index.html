@@ -5,54 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram Clone</title>
     <style>
-        /* Minimal CSS for layout and background */
+        /* Set body margins to 0 and make it fill the entire viewport */
         body {
             margin: 0;
-            display: flex;
             height: 100vh;
+            display: flex;
         }
 
+        /* Container for the entire page */
+        .container {
+            display: flex;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Left side (one-third) with background color */
         .left-side {
             background-color: #f9f9f9;
-            flex: 1; /* Takes one-third of the screen */
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
+            width: 33.33%;
             padding: 10px;
+            box-sizing: border-box;
+            display: flex;
+            align-items: flex-start;
         }
 
+        /* Right side (two-thirds) with white background */
         .right-side {
             background-color: #ffffff;
-            flex: 2; /* Takes the remaining two-thirds of the screen */
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            padding: 10px;
+            width: 66.67%;
         }
 
+        /* Padding for the logos */
         .logo {
-            margin-right: 20px; /* Space between the logos */
+            margin-right: 10px;
         }
 
         .text-logo {
-            padding-left: 15px; /* Left padding */
-            padding-top: 5px;   /* Top padding */
+            padding-top: 5px;
+            padding-left: 5px;
         }
     </style>
 </head>
 <body>
-    <!-- Left Side (One-third with background #f9f9f9) -->
-    <div class="left-side">
-        <!-- Instagram Pictorial Logo -->
-        <img src="./Assets/logo-pack/Logo.svg" alt="Instagram Logo" class="logo">
+    <!-- Container for the two sides -->
+    <div class="container">
+        <!-- Left Side (One-third with background #f9f9f9) -->
+        <div class="left-side">
+            <!-- Instagram Pictorial Logo -->
+            <img src="./Assets/logo-pack/Logo.svg" alt="Instagram Logo" class="logo">
 
-        <!-- Instagram Textual Logo -->
-        <img src="./Assets/logo-pack/Logo Big.svg" alt="Instagram Textual Logo" class="text-logo">
-    </div>
+            <!-- Instagram Textual Logo -->
+            <img src="./Assets/logo-pack/Logo Big.svg" alt="Instagram Textual Logo" class="text-logo">
+        </div>
 
-    <!-- Right Side (Two-thirds with background #ffffff) -->
-    <div class="right-side">
-        <!-- Content for the right side can be added here -->
+        <!-- Right Side (Two-thirds with background #ffffff) -->
+        <div class="right-side">
+            <!-- Empty space for now -->
+        </div>
     </div>
 </body>
 </html>
