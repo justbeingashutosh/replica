@@ -26,6 +26,7 @@
             padding: 10px;
             box-sizing: border-box;
             display: flex;
+            flex-direction: column;
             align-items: flex-start;
         }
 
@@ -44,6 +45,12 @@
             padding-top: 5px;
             padding-left: 5px;
         }
+
+        /* Image styling for DP below the logos */
+        .dp-image {
+            margin-top: 40px; /* Top padding for the image */
+            margin-left: 20px; /* Left padding for the image */
+        }
     </style>
 </head>
 <body>
@@ -51,11 +58,14 @@
     <div class="container">
         <!-- Left Side (One-third with background #f9f9f9) -->
         <div class="left-side">
-            <!-- Instagram Pictorial Logo -->
-            <img src="./Assets/logo-pack/Logo.svg" alt="Instagram Logo" class="logo">
+            <!-- Instagram Pictorial Logo and Textual Logo -->
+            <div style="display: flex; align-items: center;">
+                <img src="./Assets/logo-pack/logo.svg" alt="Instagram Logo" class="logo">
+                <img src="./Assets/logo-pack/Logo Big.svg" alt="Instagram Textual Logo" class="text-logo">
+            </div>
 
-            <!-- Instagram Textual Logo -->
-            <img src="./Assets/logo-pack/Logo Big.svg" alt="Instagram Textual Logo" class="text-logo">
+            <!-- DP Image below the logos -->
+            <img src="./Assets/logo-pack/DP.svg" alt="Display Picture" class="dp-image">
         </div>
 
         <!-- Right Side (Two-thirds with background #ffffff) -->
