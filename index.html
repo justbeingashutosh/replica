@@ -37,6 +37,11 @@
         .right-side {
             background-color: #ffffff;
             width: 66.67%;
+            padding: 10px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
 
         .logo {
@@ -106,9 +111,20 @@
         }
 
         .divider {
-            width: 80%; 
-            border-top: 2px solid #bbb; 
-            margin: 20px auto; 
+            width: 80%;
+            border-top: 2px solid #bbb;
+            margin: 20px auto;
+        }
+
+        .icons-right {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-right: 20px;
+        }
+
+        .icons-right img:last-child {
+            margin-right: 20px;
         }
     </style>
 </head>
@@ -137,7 +153,6 @@
                 </div>
             </div>
 
-
             <div class="tab">
                 <img src="./Assets/Icon-pack/Icon 1.svg" alt="Home Icon">
                 <div>Home</div>
@@ -159,7 +174,6 @@
                 <div>Account</div>
             </div>
 
-
             <div class="divider"></div>
 
             <div class="tab">
@@ -167,7 +181,13 @@
                 <div>Menu</div>
             </div>
         </div>
+
         <div class="right-side">
+            <div class="icons-right">
+                <img src="./Assets/logo-pack/Logo 7.svg" alt="Icon 7">
+                <img src="./Assets/logo-pack/Logo 8.svg" alt="Icon 8">
+                <img src="./Assets/logo-pack/Logo 9.svg" alt="Icon 9">
+            </div>
         </div>
     </div>
 </body>
