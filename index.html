@@ -5,13 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram Clone</title>
     <style>
-        /* Minimal CSS for padding and positioning */
+        /* Minimal CSS for layout and background */
         body {
             margin: 0;
-            padding: 10px;
+            display: flex;
+            height: 100vh;
+        }
+
+        .left-side {
+            background-color: #f9f9f9;
+            flex: 1; /* Takes one-third of the screen */
             display: flex;
             justify-content: flex-start;
             align-items: center;
+            padding: 10px;
+        }
+
+        .right-side {
+            background-color: #ffffff;
+            flex: 2; /* Takes the remaining two-thirds of the screen */
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 10px;
         }
 
         .logo {
@@ -25,10 +41,18 @@
     </style>
 </head>
 <body>
-    <!-- Instagram Pictorial Logo -->
-    <img src="./Assets/logo-pack/Logo.svg" alt="Instagram Logo" class="logo">
+    <!-- Left Side (One-third with background #f9f9f9) -->
+    <div class="left-side">
+        <!-- Instagram Pictorial Logo -->
+        <img src="./Assets/logo-pack/Logo.svg" alt="Instagram Logo" class="logo">
 
-    <!-- Instagram Textual Logo -->
-    <img src="./Assets/logo-pack/Logo Big.svg" alt="Instagram Textual Logo" class="text-logo">
+        <!-- Instagram Textual Logo -->
+        <img src="./Assets/logo-pack/Logo Big.svg" alt="Instagram Textual Logo" class="text-logo">
+    </div>
+
+    <!-- Right Side (Two-thirds with background #ffffff) -->
+    <div class="right-side">
+        <!-- Content for the right side can be added here -->
+    </div>
 </body>
 </html>
