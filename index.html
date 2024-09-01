@@ -12,6 +12,14 @@
             display: flex;
         }
 
+        /* Include custom font using @font-face */
+        @font-face {
+            font-family: 'WorkSans';
+            src: url('./Assets/Fonts/static/WorkSans-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
         /* Container for the entire page */
         .container {
             display: flex;
@@ -51,6 +59,15 @@
             margin-top: 70px; /* Top padding for the image */
             margin-left: 120px; /* Left padding for the image */
         }
+
+        /* Styling for the name below the DP image */
+        .name {
+            margin-top: 20px; /* Top padding for the name */
+            margin-left: 120px; /* Align the name with the DP image */
+            font-size: 18px;
+            font-family: 'WorkSans', Arial, sans-serif; /* Use the custom font */
+            color: #333;
+        }
     </style>
 </head>
 <body>
@@ -66,6 +83,9 @@
 
             <!-- DP Image below the logos -->
             <img src="./Assets/logo-pack/DP.svg" alt="Display Picture" class="dp-image">
+
+            <!-- Name below the DP image -->
+            <div class="name">Sofie White</div>
         </div>
 
         <!-- Right Side (Two-thirds with background #ffffff) -->
