@@ -13,7 +13,7 @@
 
         @font-face {
             font-family: 'WorkSans';
-            src: url('./Assets/Fonts/static/WorkSans-SemiBold.ttf') format('truetype');
+            src: url('./Assets/Fonts/static/WorkSans-Light.ttf') format('truetype');
             font-weight: normal;
             font-style: normal;
         }
@@ -56,16 +56,38 @@
         .name {
             margin-top: 20px;
             margin-left: 120px;
-            font-size: 30px; /* Increased by 2.5 times from 18px */
+            font-size: 45px;
             font-family: 'WorkSans', Arial, sans-serif;
             color: #333;
         }
 
         .handle {
+            margin-top: 10px;
+            margin-left: 120px;
+            font-size: 20px;
+            font-family: 'WorkSans', Arial, sans-serif;
+            color: #777;
+        }
+
+        .stats {
             margin-top: 20px;
             margin-left: 120px;
-            font-size: 10px; /* Increased by 2.5 times from 18px */
+            display: flex;
+            gap: 50px; /* Adjust the gap between each stat */
             font-family: 'WorkSans', Arial, sans-serif;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 24px;
+            color: black;
+        }
+
+        .stat-label {
+            font-size: 14px;
             color: #2596be;
         }
     </style>
@@ -80,6 +102,20 @@
             <img src="./Assets/logo-pack/DP.svg" alt="Display Picture" class="dp-image">
             <div class="name">Sofie White</div>
             <div class="handle">@katsse32</div>
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number">56</div>
+                    <div class="stat-label">Posts</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">3.8k</div>
+                    <div class="stat-label">Followers</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">957</div>
+                    <div class="stat-label">Following</div>
+                </div>
+            </div>
         </div>
         <div class="right-side">
         </div>
