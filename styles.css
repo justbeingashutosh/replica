@@ -47,8 +47,8 @@ body {
 .dp-image {
     margin-top: 70px;
     margin-left: 120px;
-    /*width: 100px; /* Restored original size */
-    /*height: 100px;*/
+    width: 180px; /* Restored original size */
+    height: 180px;
 }
 
 .name {
