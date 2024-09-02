@@ -47,8 +47,8 @@ body {
 .dp-image {
     margin-top: 70px;
     margin-left: 120px;
-    width: 70px;
-    height: 70px;
+    width: 100px; /* Restored original size */
+    height: 100px;
 }
 
 .name {
@@ -124,10 +124,10 @@ body {
 
 .rect-box {
     position: absolute;
-    top: 100px; /* Adjusted position above "Search" heading */
+    top: 15px; /* Position in line with logos */
     right: 250px;
-    width: 300px; /* Increased width */
-    height: 60px; /* Adjusted height to maintain 5:1 ratio */
+    width: 280px; /* Slightly decreased width */
+    height: 56px; /* Adjusted height to maintain 5:1 ratio */
     background-color: #f0f2f5;
     border-radius: 5px;
     display: flex;
@@ -150,7 +150,7 @@ body {
     font-family: 'WorkSans', Arial, sans-serif;
     font-size: 48px;
     color: #333;
-    margin-top: 170px; /* Adjusted to accommodate the search box */
+    margin-top: 100px; /* Adjusted to make space for the search box */
     margin-left: 120px;
 }
 
@@ -162,8 +162,8 @@ body {
 }
 
 .stories img {
-    width: 70px; /* Adjusted size to match DP.svg */
-    height: 70px;
+    width: 100px; /* Increased size to match DP.svg */
+    height: 100px;
 }
 
 .feed-label {
