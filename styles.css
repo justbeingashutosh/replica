@@ -47,8 +47,8 @@ body {
 .dp-image {
     margin-top: 70px;
     margin-left: 120px;
-    width: 180px; /* Restored original size */
-    height: 180px;
+    width: 200px; /* Restored original size */
+    height: 200px;
 }
 
 .name {
@@ -125,8 +125,8 @@ body {
 .rect-box {
     position: absolute;
     top: 15px; /* Position in line with logos */
-    right: 500px;
-    width: 210px; /* Slightly decreased width */
+    right: 800px;
+    width: 190px; /* Slightly decreased width */
     height: 56px; /* Adjusted height to maintain 5:1 ratio */
     background-color: #f0f2f5;
     border-radius: 5px;
