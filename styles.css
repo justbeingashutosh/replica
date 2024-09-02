@@ -46,8 +46,8 @@ body {
 
 .dp-image {
     margin-top: 70px;
-    margin-left: 120px;
-    width: 200px; /* Restored original size */
+    margin-left: 150px;
+    width: 200px; 
     height: 200px;
 }
 
@@ -86,7 +86,7 @@ body {
 
 .stat-label {
     font-size: 14px;
-    color: #2596be;
+    color: #777;
 }
 
 .tab {
@@ -125,9 +125,9 @@ body {
 .rect-box {
     position: absolute;
     top: 15px; /* Position in line with logos */
-    right: 800px;
-    width: 190px; /* Slightly decreased width */
-    height: 56px; /* Adjusted height to maintain 5:1 ratio */
+    right: 950px;
+    width: 210px; /* Slightly decreased width */
+    height: 49px; /* Adjusted height to maintain 5:1 ratio */
     background-color: #f0f2f5;
     border-radius: 5px;
     display: flex;
