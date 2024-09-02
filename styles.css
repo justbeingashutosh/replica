@@ -1,14 +1,14 @@
-body {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-}
-
 @font-face {
     font-family: 'WorkSans';
     src: url('./Assets/Fonts/static/WorkSans-Light.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
 }
 
 .container {
@@ -122,56 +122,64 @@ body {
 
 .rect-box {
     position: absolute;
-    top: 20px; /* Adjusted position */
-    right: 220px; /* To the left of icons */
-    width: 150px; /* 5 times width of 30px */
+    top: 20px;
+    right: 220px;
+    width: 150px;
     height: 30px;
     background-color: #f0f2f5;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.rect-box img {
+    margin-right: 8px;
+}
+
+.rect-box-label {
+    font-family: 'WorkSans', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #a4afb5;
 }
 
 .stories-label {
-    position: absolute;
-    top: 100px;
-    left: 10px;
-    font-size: 50px;
     font-family: 'WorkSans', Arial, sans-serif;
+    font-size: 48px;
     color: #333;
+    margin-top: 70px;
+    margin-left: 120px;
 }
 
 .stories {
-    position: absolute;
-    top: 160px;
-    left: 10px;
     display: flex;
-    gap: 15px;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 120px;
 }
 
 .stories img {
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
+    width: 70px;
+    height: 70px;
 }
 
 .feed-label {
-    position: absolute;
-    top: 260px;
-    left: 10px;
-    font-size: 50px;
     font-family: 'WorkSans', Arial, sans-serif;
+    font-size: 48px;
     color: #333;
+    margin-top: 40px;
+    margin-left: 120px;
 }
 
 .feed {
-    position: absolute;
-    top: 320px;
-    left: 10px;
     display: flex;
-    gap: 15px;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 120px;
 }
 
 .feed img {
-    width: 30%;
+    width: 250px;
     height: auto;
-    border-radius: 10px;
 }
