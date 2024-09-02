@@ -47,6 +47,8 @@ body {
 .dp-image {
     margin-top: 70px;
     margin-left: 120px;
+    width: 70px;
+    height: 70px;
 }
 
 .name {
@@ -122,24 +124,24 @@ body {
 
 .rect-box {
     position: absolute;
-    top: 20px;
-    right: 220px;
-    width: 150px;
-    height: 30px;
+    top: 100px; /* Adjusted position above "Search" heading */
+    right: 250px;
+    width: 300px; /* Increased width */
+    height: 60px; /* Adjusted height to maintain 5:1 ratio */
     background-color: #f0f2f5;
     border-radius: 5px;
     display: flex;
     align-items: center;
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 .rect-box img {
-    margin-right: 8px;
+    margin-right: 10px;
 }
 
 .rect-box-label {
     font-family: 'WorkSans', Arial, sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     color: #a4afb5;
 }
@@ -148,19 +150,19 @@ body {
     font-family: 'WorkSans', Arial, sans-serif;
     font-size: 48px;
     color: #333;
-    margin-top: 70px;
+    margin-top: 170px; /* Adjusted to accommodate the search box */
     margin-left: 120px;
 }
 
 .stories {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     margin-top: 20px;
     margin-left: 120px;
 }
 
 .stories img {
-    width: 70px;
+    width: 70px; /* Adjusted size to match DP.svg */
     height: 70px;
 }
 
