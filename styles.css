@@ -125,7 +125,7 @@ body {
 .rect-box {
     position: absolute;
     top: 15px; /* Position in line with logos */
-    right: 250px;
+    right: 500px;
     width: 280px; /* Slightly decreased width */
     height: 56px; /* Adjusted height to maintain 5:1 ratio */
     background-color: #f0f2f5;
