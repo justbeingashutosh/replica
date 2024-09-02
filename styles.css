@@ -127,7 +127,7 @@ body {
     top: 15px; /* Position in line with logos */
     right: 950px;
     width: 210px; /* Slightly decreased width */
-    height: 49px; /* Adjusted height to maintain 5:1 ratio */
+    height: 50px; /* Adjusted height to maintain 5:1 ratio */
     background-color: #f0f2f5;
     border-radius: 5px;
     display: flex;
