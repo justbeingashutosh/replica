@@ -122,18 +122,17 @@ body {
 
 .rect-box {
     position: absolute;
-    top: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60px;
-    height: 12px;
+    top: 20px; /* Adjusted position */
+    right: 220px; /* To the left of icons */
+    width: 150px; /* 5 times width of 30px */
+    height: 30px;
     background-color: #f0f2f5;
     border-radius: 5px;
 }
 
 .stories-label {
     position: absolute;
-    top: 70px;
+    top: 100px;
     left: 10px;
     font-size: 50px;
     font-family: 'WorkSans', Arial, sans-serif;
@@ -142,7 +141,7 @@ body {
 
 .stories {
     position: absolute;
-    top: 140px;
+    top: 160px;
     left: 10px;
     display: flex;
     gap: 15px;
@@ -156,7 +155,7 @@ body {
 
 .feed-label {
     position: absolute;
-    top: 240px;
+    top: 260px;
     left: 10px;
     font-size: 50px;
     font-family: 'WorkSans', Arial, sans-serif;
@@ -165,7 +164,7 @@ body {
 
 .feed {
     position: absolute;
-    top: 310px;
+    top: 320px;
     left: 10px;
     display: flex;
     gap: 15px;
